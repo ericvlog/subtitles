@@ -1,0 +1,726 @@
+[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,18,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,3,2,20,20,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:03:29.85,0:03:33.35,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}我刚去见了神父和修女
+Dialogue: 0,0:03:33.49,0:03:35.39,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}是每个月的例行公事啊
+Dialogue: 0,0:03:37.00,0:03:39.33,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}小朋友们很可爱 我好喜欢
+Dialogue: 0,0:03:39.46,0:03:42.13,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}以后生小孩 想要在那里让他长大
+Dialogue: 0,0:03:42.70,0:03:47.64,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}看得到野花和树 离首尔也近
+Dialogue: 0,0:03:47.77,0:03:49.64,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}什么 拖吊车
+Dialogue: 0,0:03:50.44,0:03:52.41,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}他们说到这里会花点时间
+Dialogue: 0,0:03:58.52,0:04:00.92,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}这声音好好听
+Dialogue: 0,0:04:01.85,0:04:06.48,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}这里下雪又听到你的声音 好棒哦
+Dialogue: 0,0:04:14.43,0:04:15.87,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你先等一下
+Dialogue: 0,0:04:18.64,0:04:20.07,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}车子抛锚吗
+Dialogue: 0,0:04:20.21,0:04:22.83,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}对 我有叫拖吊车
+Dialogue: 0,0:04:22.97,0:04:26.43,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}下雪天叫拖吊车 会花点时间的
+Dialogue: 0,0:04:26.58,0:04:28.74,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}我来帮你看一下轮胎好了
+Dialogue: 0,0:04:35.69,0:04:38.62,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}我说没关系 还硬是要帮我看轮胎
+Dialogue: 0,0:04:39.96,0:04:41.22,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}是吗
+Dialogue: 0,0:04:43.09,0:04:45.82,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}还是等拖吊车来比较好吧
+Dialogue: 0,0:04:49.13,0:04:52.33,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}换轮胎虽然并不是困难的事
+Dialogue: 0,0:04:57.01,0:05:02.07,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}很奇怪啊 都叫了拖吊车他还帮忙换
+Dialogue: 0,0:05:02.21,0:05:03.84,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}等一下
+Dialogue: 0,0:05:04.92,0:05:06.32,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}进行的如何
+Dialogue: 0,0:05:09.35,0:05:10.48,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}好 知道了
+Dialogue: 0,0:05:10.62,0:05:13.02,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}喂 珠妍 我现在要出去了
+Dialogue: 0,0:05:15.33,0:05:17.95,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}不要开门 等拖吊车来 知道吗
+Dialogue: 0,0:05:20.06,0:05:21.22,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}什么
+Dialogue: 0,0:05:25.54,0:05:26.59,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}等一下
+Dialogue: 0,0:05:39.92,0:05:42.41,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}爱是
+Dialogue: 0,0:05:43.59,0:05:46.28,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}甜蜜的
+Dialogue: 0,0:05:48.29,0:05:50.02,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}就像妈妈一样
+Dialogue: 0,0:05:50.60,0:05:52.72,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}不是叫拖吊车了吗
+Dialogue: 0,0:05:53.67,0:05:56.53,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}干嘛要帮忙换轮胎
+Dialogue: 0,0:06:00.04,0:06:02.87,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}现在这里人好多 进进出出的
+Dialogue: 0,0:06:05.64,0:06:08.81,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}对不起 每次生日都不能一起过
+Dialogue: 0,0:06:10.32,0:06:11.68,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}好 我会早点回家
+Dialogue: 0,0:06:25.43,0:06:27.83,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}车子已经陷下去了
+Dialogue: 0,0:06:28.97,0:06:32.96,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}谢谢你 我想我还是等拖吊车好了
+Dialogue: 0,0:06:33.10,0:06:34.47,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}谢谢你
+Dialogue: 0,0:07:10.98,0:07:14.14,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}"学生保护车辆"
+Dialogue: 0,0:07:21.12,0:07:23.11,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}他怎么还不走
+Dialogue: 0,0:09:23.81,0:09:27.24,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}看见魔鬼
+Dialogue: 0,0:10:11.96,0:10:13.36,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}先生
+Dialogue: 0,0:10:14.79,0:10:16.12,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}先生
+Dialogue: 0,0:10:19.03,0:10:20.29,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}先生
+Dialogue: 0,0:11:25.76,0:11:30.29,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你的皮肤很柔嫩 应该不会太难剁
+Dialogue: 0,0:11:37.51,0:11:39.87,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}可以不杀我吗
+Dialogue: 0,0:11:43.41,0:11:44.57,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}为什么
+Dialogue: 0,0:11:46.95,0:11:48.68,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}我
+Dialogue: 0,0:11:52.92,0:11:55.29,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}怀孕了
+Dialogue: 0,0:12:04.17,0:12:09.47,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}饶了我吧 求求你
+Dialogue: 0,0:14:56.94,0:15:00.04,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}东洙哥 东洙哥
+Dialogue: 0,0:15:01.08,0:15:01.74,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}干嘛
+Dialogue: 0,0:15:01.88,0:15:04.18,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}来这里 快点
+Dialogue: 0,0:15:55.87,0:15:56.86,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}班长
+Dialogue: 0,0:15:57.00,0:15:58.37,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你来这里做什么
+Dialogue: 0,0:15:58.50,0:16:01.87,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}待在家里 有进展我们会向您报告
+Dialogue: 0,0:16:02.74,0:16:04.90,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}到底是怎么一回事
+Dialogue: 0,0:16:05.04,0:16:06.77,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}我女儿到底怎么了
+Dialogue: 0,0:16:07.41,0:16:09.54,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}不要看 现在不要看
+Dialogue: 0,0:16:09.68,0:16:11.20,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}我们也还不确定
+Dialogue: 0,0:16:44.38,0:16:45.01,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}赵警官
+Dialogue: 0,0:16:45.15,0:16:46.31,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}什么
+Dialogue: 0,0:16:46.45,0:16:50.11,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}这里 这是什么
+Dialogue: 0,0:16:50.79,0:16:51.81,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}拿开
+Dialogue: 0,0:16:54.16,0:16:55.42,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}看起来好像是头
+Dialogue: 0,0:16:55.79,0:16:56.85,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}翻过来
+Dialogue: 0,0:17:26.72,0:17:29.72,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}监识科 这里 这里 快来一下
+Dialogue: 0,0:17:29.86,0:17:32.66,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}找到了 找到头了
+Dialogue: 0,0:18:27.45,0:18:28.48,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你照顾一下张班长
+Dialogue: 0,0:18:28.62,0:18:29.59,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}班长 班长
+Dialogue: 0,0:18:29.72,0:18:30.91,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}珠妍
+Dialogue: 0,0:19:07.22,0:19:09.52,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}别再拍了 你们
+Dialogue: 0,0:19:09.66,0:19:11.25,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你们还算是人吗
+Dialogue: 0,0:19:11.40,0:19:12.66,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}快点挡住
+Dialogue: 0,0:20:16.59,0:20:20.62,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}上天还是有帮我们的忙
+Dialogue: 0,0:20:21.60,0:20:25.03,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}不然 就无法找到她了
+Dialogue: 0,0:20:29.24,0:20:30.87,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}真是可笑啊
+Dialogue: 0,0:20:31.68,0:20:36.58,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}我在重案组做了30多年的警察
+Dialogue: 0,0:20:37.88,0:20:40.71,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}却无法保护好自己的女儿
+Dialogue: 0,0:20:51.50,0:20:53.02,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}请您不要再抽了
+Dialogue: 0,0:20:59.07,0:21:00.47,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}对不起
+Dialogue: 0,0:21:03.24,0:21:04.43,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}真的
+Dialogue: 0,0:21:09.68,0:21:11.20,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}很对不起
+Dialogue: 0,0:21:16.89,0:21:18.41,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}对你
+Dialogue: 0,0:21:21.63,0:21:23.79,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}还有对珠妍
+Dialogue: 0,0:21:30.47,0:21:33.44,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}真的很对不起
+Dialogue: 0,0:22:02.77,0:22:04.13,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}珠妍 对不起
+Dialogue: 0,0:22:05.94,0:22:08.03,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}没办法遵守和你的约定
+Dialogue: 0,0:22:09.34,0:22:10.93,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}我总是迟到
+Dialogue: 0,0:22:12.31,0:22:14.17,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}又不遵守约定
+Dialogue: 0,0:22:16.65,0:22:21.64,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}但是珠妍 我答应你一件事
+Dialogue: 0,0:22:26.29,0:22:34.63,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你受的苦 我会加倍还给那家伙的
+Dialogue: 0,0:22:42.57,0:22:44.16,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}姊夫
+Dialogue: 0,0:23:28.59,0:23:31.25,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}要多久呢
+Dialogue: 0,0:23:31.39,0:23:34.82,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}也没有急事 要休息一两个月吗
+Dialogue: 0,0:23:34.96,0:23:36.32,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}半个月就好
+Dialogue: 0,0:23:36.46,0:23:37.43,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}这里最近也不忙啊
+Dialogue: 0,0:23:37.56,0:23:41.26,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}不用 半个月后会来上班
+Dialogue: 0,0:23:43.03,0:23:46.06,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}我当然希望你尽快来上班
+Dialogue: 0,0:23:47.24,0:23:48.57,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}但你可以吗
+Dialogue: 0,0:23:58.22,0:24:03.28,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}好 我会处理的 你就去散散心吧
+Dialogue: 0,0:24:03.42,0:24:04.61,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}好好休息
+Dialogue: 0,0:24:12.93,0:24:15.19,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}怎么会发生这种事情
+Dialogue: 0,0:24:15.83,0:24:18.56,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}订婚不到一个月 不是吗
+Dialogue: 0,0:24:18.70,0:24:21.80,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}世事难料啊
+Dialogue: 0,0:24:22.77,0:24:26.71,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}胶囊 里面有GPS晶片和麦克风
+Dialogue: 0,0:24:26.84,0:24:28.04,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}很厉害吧
+Dialogue: 0,0:24:32.68,0:24:34.21,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}辛苦你了
+Dialogue: 0,0:24:34.99,0:24:36.15,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}谢谢你
+Dialogue: 0,0:24:36.29,0:24:37.34,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}是
+Dialogue: 0,0:24:44.06,0:24:45.05,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你还不走吗
+Dialogue: 0,0:24:45.20,0:24:46.32,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}啊
+Dialogue: 0,0:24:46.80,0:24:49.23,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}没有其他的吩附了吗
+Dialogue: 0,0:24:49.37,0:24:50.96,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}没有
+Dialogue: 0,0:24:51.64,0:24:52.93,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}喔
+Dialogue: 0,0:24:53.77,0:24:59.47,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}应该不会有问题吧 这是偷拿出来的
+Dialogue: 0,0:24:59.61,0:25:02.77,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}我们部门不同 出事的话
+Dialogue: 0,0:25:02.91,0:25:04.21,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}别担心
+Dialogue: 0,0:25:05.45,0:25:07.18,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}不会有事的
+Dialogue: 0,0:25:19.00,0:25:20.86,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}警方好像认为
+Dialogue: 0,0:25:22.37,0:25:26.03,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}这四个人的嫌疑最大
+Dialogue: 0,0:25:27.57,0:25:32.70,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}以前也因为类似的案件被指控过
+Dialogue: 0,0:25:36.45,0:25:37.81,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}姊夫 你来啦
+Dialogue: 0,0:25:37.95,0:25:39.68,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}嗯
+Dialogue: 0,0:25:39.82,0:25:42.38,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}吃过了吗 要不要吃一点
+Dialogue: 0,0:25:42.82,0:25:44.72,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}我现在要离开了
+Dialogue: 0,0:25:45.66,0:25:47.78,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}我买了些爸爸爱吃的东西回来
+Dialogue: 0,0:25:52.33,0:25:54.46,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}我先走了 不用送我
+Dialogue: 0,0:25:55.07,0:25:55.96,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}要走了吗
+Dialogue: 0,0:25:56.10,0:25:57.19,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}嗯
+Dialogue: 0,0:26:39.44,0:26:40.84,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}妈的
+Dialogue: 0,0:27:34.66,0:27:35.89,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}安静
+Dialogue: 0,0:27:39.44,0:27:40.60,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}还记得吗
+Dialogue: 0,0:27:45.08,0:27:46.27,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}真的不知道
+Dialogue: 0,0:27:54.08,0:27:55.14,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}好吧
+Dialogue: 0,0:28:12.27,0:28:13.17,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}您来啦
+Dialogue: 0,0:28:13.30,0:28:16.60,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}他这是怎么了 说什么要自首
+Dialogue: 0,0:28:16.74,0:28:20.68,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}两个月前发现的尸体 他说是他做的
+Dialogue: 0,0:28:20.81,0:28:24.44,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}几年前那件女高中生失踪案 也说是他做的
+Dialogue: 0,0:28:25.05,0:28:27.45,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}这家伙是吃错药了吗
+Dialogue: 0,0:28:27.58,0:28:30.75,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}怎么这副德性 谁做的 你们吗
+Dialogue: 0,0:28:30.89,0:28:32.29,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}不是
+Dialogue: 0,0:28:32.42,0:28:35.62,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}突然有救护车进来 我们赶紧去看
+Dialogue: 0,0:28:35.76,0:28:37.95,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}结果他就这样快要死掉了
+Dialogue: 0,0:28:38.09,0:28:40.29,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}到底是怎样 自残吗
+Dialogue: 0,0:28:40.43,0:28:42.56,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}那个部分他还没有说
+Dialogue: 0,0:28:43.87,0:28:46.06,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你昨天发生了什么事
+Dialogue: 0,0:28:47.14,0:28:50.23,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}救 救 我
+Dialogue: 0,0:28:50.87,0:28:53.64,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}救 救 我
+Dialogue: 0,0:28:53.78,0:28:54.90,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}他在说什么
+Dialogue: 0,0:28:55.05,0:29:00.45,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}不知道是谁用锤子打了他的鸡鸡
+Dialogue: 0,0:29:00.58,0:29:01.85,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}喂
+Dialogue: 0,0:29:02.32,0:29:03.68,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你在胡扯什么
+Dialogue: 0,0:29:05.79,0:29:07.52,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你的鸡鸡是谁打的
+Dialogue: 0,0:29:36.95,0:29:38.28,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你是谁 这家伙
+Dialogue: 0,0:29:47.00,0:29:48.33,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你这混蛋
+Dialogue: 0,0:32:42.74,0:32:47.57,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}没有公车可搭了 你要去哪里
+Dialogue: 0,0:32:48.55,0:32:49.81,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}什么
+Dialogue: 0,0:32:49.95,0:32:51.64,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你要去哪里
+Dialogue: 0,0:32:52.52,0:32:53.78,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}盛民公寓
+Dialogue: 0,0:32:53.92,0:32:55.04,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}盛民
+Dialogue: 0,0:32:56.05,0:33:00.61,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}不是我的目的地 但也顺路 上车
+Dialogue: 0,0:33:00.76,0:33:01.85,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}我载你吧
+Dialogue: 0,0:33:01.99,0:33:03.42,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}不用了 没关系
+Dialogue: 0,0:33:03.76,0:33:05.66,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}别客气 上车吧
+Dialogue: 0,0:33:06.06,0:33:07.50,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}真的没关系
+Dialogue: 0,0:33:07.93,0:33:11.77,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}盛民公寓就在前面啊 没关系 上车吧
+Dialogue: 0,0:33:21.01,0:33:22.53,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}就说没关系了啊
+Dialogue: 0,0:33:27.22,0:33:29.05,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}真的有顺路吗
+Dialogue: 0,0:33:30.85,0:33:33.69,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}没有关系的 上车吧
+Dialogue: 0,0:33:53.34,0:33:54.31,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}怎么了
+Dialogue: 0,0:33:54.44,0:33:57.35,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}啊 没什么
+Dialogue: 0,0:34:03.29,0:34:04.75,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}这是补习班的车吗
+Dialogue: 0,0:34:28.68,0:34:31.31,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}妈的 放哪里了啊
+Dialogue: 0,0:35:05.28,0:35:06.44,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}怎样
+Dialogue: 0,0:35:07.98,0:35:09.28,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}啊
+Dialogue: 0,0:35:09.42,0:35:11.68,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}干嘛摆一张臭脸啊
+Dialogue: 0,0:35:15.26,0:35:16.66,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}第一次看到这玩意儿吗
+Dialogue: 0,0:36:34.50,0:36:35.70,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你是谁啊
+Dialogue: 0,0:36:52.26,0:36:56.45,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}领保险金为什么需要这些
+Dialogue: 0,0:36:57.19,0:37:01.29,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}要先确认被保人是不是张敬哲先生
+Dialogue: 0,0:37:01.43,0:37:03.59,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}因为有很多同名同姓的人
+Dialogue: 0,0:37:04.80,0:37:07.00,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}这些都是很旧的照片
+Dialogue: 0,0:37:18.38,0:37:20.11,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}这张看得出来吗
+Dialogue: 0,0:37:25.92,0:37:28.22,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}我按照规定再问几个问题后就走
+Dialogue: 0,0:37:29.26,0:37:33.39,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}除了我知道的 他还有其他的地址吗
+Dialogue: 0,0:37:34.33,0:37:38.16,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}我不知道 我们家的小朋友知道
+Dialogue: 0,0:37:38.77,0:37:39.70,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}尚元
+Dialogue: 0,0:37:40.50,0:37:41.80,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}尚元
+Dialogue: 0,0:37:42.31,0:37:44.07,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}他去哪里了
+Dialogue: 0,0:37:45.51,0:37:52.07,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}好像是在杨平 还是清平
+Dialogue: 0,0:37:53.55,0:37:58.78,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}我最后再确认一下 他是不是我要找的人
+Dialogue: 0,0:38:04.13,0:38:05.72,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}他是张敬哲吗
+Dialogue: 0,0:38:10.47,0:38:11.83,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}是敬哲
+Dialogue: 0,0:38:12.84,0:38:14.13,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}怎么
+Dialogue: 0,0:38:15.77,0:38:17.83,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}这是最近的照片吗
+Dialogue: 0,0:38:20.81,0:38:24.87,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}怎么会拍得这么可怕
+Dialogue: 0,0:38:25.38,0:38:27.54,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}说什么保险不保险的
+Dialogue: 0,0:38:29.89,0:38:33.29,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}他那样不三不四的人怎么会有保险
+Dialogue: 0,0:38:33.42,0:38:37.83,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}别说父母了 连小孩都抛弃的家伙
+Dialogue: 0,0:38:37.96,0:38:41.02,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}说什么用家人的名字保险
+Dialogue: 0,0:38:41.16,0:38:42.99,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}这到底像话吗
+Dialogue: 0,0:38:43.13,0:38:44.19,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}干嘛说这些话
+Dialogue: 0,0:38:44.33,0:38:46.10,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}我有说错吗
+Dialogue: 0,0:38:46.24,0:38:48.57,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}值得包庇的才要包庇啊
+Dialogue: 0,0:38:48.70,0:38:50.43,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你闭嘴 你这老头
+Dialogue: 0,0:38:50.57,0:38:53.13,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}他还算是儿子吗 是冤家 老太婆
+Dialogue: 0,0:38:53.28,0:38:56.04,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你闭嘴不要啰嗦 我很生气
+Dialogue: 0,0:38:56.18,0:38:58.65,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}那你干嘛说这些
+Dialogue: 0,0:38:58.78,0:39:00.87,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}又不是好话 干嘛要说
+Dialogue: 0,0:39:01.02,0:39:02.21,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}死老太婆
+Dialogue: 0,0:39:08.29,0:39:09.52,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}话说回来
+Dialogue: 0,0:39:10.33,0:39:16.13,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}被保人如果死了或失联 家人就能领钱吗
+Dialogue: 0,0:39:43.56,0:39:44.75,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你是尚元吗
+Dialogue: 0,0:39:51.87,0:39:53.66,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你知道你爸住哪里吗
+Dialogue: 0,0:39:57.21,0:39:58.43,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}妈的
+Dialogue: 0,0:40:01.38,0:40:02.57,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}怎么了吗
+Dialogue: 0,0:43:20.64,0:43:22.77,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}真的好会唱歌
+Dialogue: 0,0:43:22.91,0:43:24.28,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}不知道能不能去
+Dialogue: 0,0:43:24.41,0:43:26.04,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}一定要去啊
+Dialogue: 0,0:43:26.18,0:43:28.41,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}我妈会揍我的
+Dialogue: 0,0:43:30.75,0:43:33.19,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你们一定要直接回家 知道吗
+Dialogue: 0,0:43:33.32,0:43:34.38,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}好
+Dialogue: 0,0:43:38.56,0:43:40.86,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}司机先生 不要让她们中途下车
+Dialogue: 0,0:43:41.00,0:43:41.69,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}好的
+Dialogue: 0,0:43:41.83,0:43:42.32,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}辛苦了
+Dialogue: 0,0:43:42.46,0:43:43.56,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}是
+Dialogue: 0,0:44:23.51,0:44:24.63,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}妈的
+Dialogue: 0,0:44:29.18,0:44:29.61,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}请问你们是
+Dialogue: 0,0:44:29.75,0:44:31.30,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}张敬哲在这里吗
+Dialogue: 0,0:44:31.45,0:44:32.35,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}有什么事吗
+Dialogue: 0,0:44:32.48,0:44:34.97,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}我们是警察 张敬哲在哪里
+Dialogue: 0,0:44:35.12,0:44:36.58,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}载学生们离开了
+Dialogue: 0,0:44:36.72,0:44:39.42,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}赶快打手机给张敬哲 快
+Dialogue: 0,0:44:49.30,0:44:52.53,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}"补习班"
+Dialogue: 0,0:45:00.61,0:45:02.44,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}妈的
+Dialogue: 0,0:45:52.16,0:46:00.23,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}不要哭 不要哭
+Dialogue: 0,0:46:02.64,0:46:08.24,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}妈的 我叫你不要哭
+Dialogue: 0,0:46:09.81,0:46:11.44,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}来看看
+Dialogue: 0,0:46:48.55,0:46:50.68,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}皮肤好白
+Dialogue: 0,0:46:56.66,0:46:58.02,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}没关系 没关系
+Dialogue: 0,0:46:58.79,0:47:00.82,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}叔叔会马上结束的
+Dialogue: 0,0:47:02.03,0:47:08.03,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}妈的 叔叔以后不能开车了
+Dialogue: 0,0:47:10.67,0:47:12.77,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}事情好像不太顺利
+Dialogue: 0,0:47:18.28,0:47:19.54,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}但是
+Dialogue: 0,0:47:20.82,0:47:22.94,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}妈的 我不能喜欢你吗
+Dialogue: 0,0:47:25.02,0:47:26.82,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}我不能喜欢你吗
+Dialogue: 0,0:47:28.49,0:47:30.25,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}我也是可以喜欢你啊
+Dialogue: 0,0:47:31.49,0:47:35.62,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}妈的 阿猫阿狗都要管着我
+Dialogue: 0,0:47:36.73,0:47:37.96,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你说是不是
+Dialogue: 0,0:47:42.14,0:47:43.40,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}妈的
+Dialogue: 0,0:47:47.78,0:47:48.97,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}我会马上结束
+Dialogue: 0,0:47:49.98,0:47:51.71,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}叔叔会马上结束的
+Dialogue: 0,0:48:09.50,0:48:10.83,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}张敬哲
+Dialogue: 0,0:49:59.21,0:50:01.27,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}什么 一个人
+Dialogue: 0,0:50:07.25,0:50:08.65,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你是警察吗
+Dialogue: 0,0:50:23.63,0:50:24.86,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}我答对了
+Dialogue: 0,0:50:32.31,0:50:34.64,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}韩国警察会这么快找到我
+Dialogue: 0,0:50:36.41,0:50:37.97,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}真是无话可说
+Dialogue: 0,0:50:42.28,0:50:45.01,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}看来你们还不了解我这个人
+Dialogue: 0,0:50:46.69,0:50:47.95,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}说的也是
+Dialogue: 0,0:50:48.72,0:50:50.69,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}韩国警察不都是那样吗
+Dialogue: 0,0:50:52.56,0:50:54.09,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}话说回来
+Dialogue: 0,0:51:44.05,0:51:45.14,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}狗 崽子
+Dialogue: 0,0:55:15.66,0:55:16.32,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}妈的 混帐
+Dialogue: 0,0:55:16.46,0:55:17.86,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}混帐 这是什么
+Dialogue: 0,0:55:19.36,0:55:23.23,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}根本就是一个神经病
+Dialogue: 0,0:56:20.76,0:56:22.09,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}混帐家伙
+Dialogue: 0,0:56:33.57,0:56:35.00,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}妈的
+Dialogue: 0,0:57:07.84,0:57:13.40,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}您要去哪里 我正要离开 上车吧
+Dialogue: 0,0:57:14.74,0:57:17.41,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}不上车吗 没有别的车了
+Dialogue: 0,0:57:20.82,0:57:23.91,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}怎么会一个人走到这里
+Dialogue: 0,0:57:25.65,0:57:30.22,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}您真幸运 在这里还能搭到计程车
+Dialogue: 0,0:57:31.36,0:57:34.06,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}后座客人也顺路
+Dialogue: 0,0:57:34.20,0:57:35.49,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}不介意吧
+Dialogue: 0,0:57:35.63,0:57:36.86,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}我不介意
+Dialogue: 0,0:57:54.75,0:57:56.81,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你在这里拦车很辛苦吧
+Dialogue: 0,0:57:57.29,0:58:00.69,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}这里很难看到有车经过
+Dialogue: 0,0:58:01.39,0:58:06.09,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}我也不太走这里 偶而才跑一次
+Dialogue: 0,0:58:06.73,0:58:10.82,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}大叔你今天真幸运
+Dialogue: 0,0:58:12.50,0:58:13.87,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你知道吗
+Dialogue: 0,0:58:14.00,0:58:17.87,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}最近这附近发生很多奇怪的事
+Dialogue: 0,0:58:18.01,0:58:19.84,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}晚上就没有客人了
+Dialogue: 0,0:58:21.24,0:58:23.84,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}结果今晚载了两位客人
+Dialogue: 0,0:58:23.98,0:58:30.08,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}我今天也算很幸运 是吧 后座的先生
+Dialogue: 0,0:58:36.12,0:58:39.96,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}天色这么暗 你是从哪里来的啊
+Dialogue: 0,0:58:54.81,0:58:56.14,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}大叔 怎么了吗
+Dialogue: 0,0:58:56.98,0:58:59.45,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}有什么开心的事吗
+Dialogue: 0,0:59:00.15,0:59:01.27,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}大叔
+Dialogue: 0,0:59:02.12,0:59:03.31,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}嗯
+Dialogue: 0,0:59:05.49,0:59:09.39,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你说我们都很幸运吧
+Dialogue: 0,0:59:11.43,0:59:13.33,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}对啊 我有说
+Dialogue: 0,0:59:14.10,0:59:15.32,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}怎么了
+Dialogue: 0,0:59:17.53,0:59:18.97,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}依我看来
+Dialogue: 0,0:59:20.57,0:59:22.76,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}大叔你很倒楣
+Dialogue: 0,1:00:48.49,1:00:51.12,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}两个疯子
+Dialogue: 0,1:02:28.66,1:02:32.46,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你还年轻 会很快好 不要太担心
+Dialogue: 0,1:02:33.49,1:02:34.79,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}足球
+Dialogue: 0,1:02:35.46,1:02:39.76,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}到底是踢多用力能让你手脱臼
+Dialogue: 0,1:02:41.17,1:02:43.26,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}足球又不是用手踢
+Dialogue: 0,1:02:43.91,1:02:46.84,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}记得以后小心一点 知道吗
+Dialogue: 0,1:02:53.61,1:02:55.48,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}没事了 你走吧
+Dialogue: 0,1:03:00.05,1:03:01.39,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你这老混蛋
+Dialogue: 0,1:03:05.29,1:03:06.99,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}我是你小孩吗
+Dialogue: 0,1:03:09.53,1:03:12.52,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}混蛋 干嘛说话这么不敬
+Dialogue: 0,1:03:18.77,1:03:20.10,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}眼镜脱下来
+Dialogue: 0,1:03:22.88,1:03:24.17,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}眼镜脱下来
+Dialogue: 0,1:03:28.85,1:03:29.84,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}妈的
+Dialogue: 0,1:03:31.02,1:03:32.21,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}过来
+Dialogue: 0,1:03:33.15,1:03:34.21,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}过来
+Dialogue: 0,1:03:35.02,1:03:36.22,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}这边请
+Dialogue: 0,1:03:37.63,1:03:40.29,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}请来这里拿处方笺
+Dialogue: 0,1:03:55.88,1:03:59.87,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}老家伙都很喜欢讲话不敬
+Dialogue: 0,1:04:00.01,1:04:02.48,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}妈的 小心我会把你嘴巴撕破
+Dialogue: 0,1:04:09.99,1:04:11.36,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}请小心
+Dialogue: 0,1:04:16.70,1:04:17.99,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你几岁
+Dialogue: 0,1:04:21.07,1:04:22.93,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}22岁
+Dialogue: 0,1:04:23.77,1:04:25.50,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}花样年华啊
+Dialogue: 0,1:04:26.57,1:04:27.97,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}男朋友呢
+Dialogue: 0,1:04:29.18,1:04:30.44,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}什么
+Dialogue: 0,1:04:31.78,1:04:35.15,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你长得很可爱 一定很多男友吧
+Dialogue: 0,1:04:37.65,1:04:39.55,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}没有 我没有
+Dialogue: 0,1:04:40.86,1:04:43.62,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}什么态度 找死吗
+Dialogue: 0,1:04:45.39,1:04:48.19,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}这么漂亮的小姐 会没有男朋友
+Dialogue: 0,1:04:52.70,1:04:54.36,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}看来你不懂啊
+Dialogue: 0,1:04:57.10,1:04:58.30,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}什么
+Dialogue: 0,1:04:59.44,1:05:01.43,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}不懂那个就不好玩了
+Dialogue: 0,1:06:17.42,1:06:18.54,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}其实
+Dialogue: 0,1:06:19.35,1:06:22.05,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}我昨天差一点就尝到甜头了
+Dialogue: 0,1:06:23.52,1:06:27.39,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}但是因为一个混帐把事情搞砸了
+Dialogue: 0,1:06:32.30,1:06:33.56,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}所以
+Dialogue: 0,1:06:34.60,1:06:36.90,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}今天就合作一点吧 嗯
+Dialogue: 0,1:07:05.70,1:07:06.93,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你脱衣服吧
+Dialogue: 0,1:07:08.37,1:07:09.63,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}什么
+Dialogue: 0,1:07:15.11,1:07:16.34,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}脱衣服
+Dialogue: 0,1:07:19.51,1:07:21.88,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}反正都要做 你也要喜欢啊
+Dialogue: 0,1:07:24.45,1:07:26.08,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}所以你脱衣服吧
+Dialogue: 0,1:07:45.44,1:07:48.64,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}在我动刀之前赶快脱 贱人
+Dialogue: 0,1:07:54.28,1:07:56.15,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}赶快脱衣服 贱人
+Dialogue: 0,1:08:48.94,1:08:50.13,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}对了
+Dialogue: 0,1:08:58.31,1:08:59.71,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}还有胸罩也脱了
+Dialogue: 0,1:09:00.72,1:09:01.88,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}快点
+Dialogue: 0,1:09:14.20,1:09:16.56,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}求你饶了我吧
+Dialogue: 0,1:09:29.54,1:09:33.84,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}下面也要脱
+Dialogue: 0,1:11:07.94,1:11:10.31,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你这混蛋 这家伙
+Dialogue: 0,1:11:11.11,1:11:12.04,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你到底是什么东西
+Dialogue: 0,1:11:12.18,1:11:13.44,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}混帐东西
+Dialogue: 0,1:12:09.27,1:12:10.26,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}请等一下
+Dialogue: 0,1:12:11.24,1:12:13.87,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}不要出去 等一下要帮忙急诊
+Dialogue: 0,1:12:18.08,1:12:20.88,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}干嘛装弱 才正要开始呢
+Dialogue: 0,1:12:24.15,1:12:25.41,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}记着
+Dialogue: 0,1:12:26.85,1:12:28.85,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}会越来越恐怖的
+Dialogue: 0,1:12:35.83,1:12:37.19,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}现在闭上眼睛
+Dialogue: 0,1:12:37.33,1:12:38.80,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}头转过去 堵住耳朵
+Dialogue: 0,1:14:16.23,1:14:18.89,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}混帐家伙 狗崽子
+Dialogue: 0,1:14:49.53,1:14:53.16,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}混帐家伙 活得不耐烦了
+Dialogue: 0,1:15:00.44,1:15:04.14,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}好啊 混帐 想和我一决胜负吗
+Dialogue: 0,1:15:04.98,1:15:07.88,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}混蛋家伙 你想要跟我一较高下吗
+Dialogue: 0,1:15:08.02,1:15:09.51,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}这个混蛋
+Dialogue: 0,1:15:11.29,1:15:14.85,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}来啊 混帐家伙 看谁厉害 混蛋
+Dialogue: 0,1:16:28.36,1:16:29.42,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}什么事
+Dialogue: 0,1:16:33.37,1:16:34.66,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}发生意外了吗
+Dialogue: 0,1:16:46.28,1:16:48.04,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}看来是车子坏掉了
+Dialogue: 0,1:17:47.24,1:17:48.30,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}它们
+Dialogue: 0,1:17:49.71,1:17:51.30,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}只要闻到血的味道
+Dialogue: 0,1:17:52.88,1:17:54.87,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}就会兴奋的不得了
+Dialogue: 0,1:18:29.15,1:18:30.24,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}是 伯父
+Dialogue: 0,1:18:30.75,1:18:33.81,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}一切都还好吗
+Dialogue: 0,1:18:37.06,1:18:41.29,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}只是有点担心你
+Dialogue: 0,1:18:43.53,1:18:48.33,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}警方好像认为我在调查张敬哲
+Dialogue: 0,1:18:50.40,1:18:53.84,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}警方好像也在搜寻张敬哲
+Dialogue: 0,1:18:54.91,1:18:56.54,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}所以我想
+Dialogue: 0,1:19:01.55,1:19:05.11,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}就到此为止吧 如何
+Dialogue: 0,1:19:05.79,1:19:06.98,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}不是 那个
+Dialogue: 0,1:19:07.12,1:19:09.02,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}已经做到这个地步了
+Dialogue: 0,1:19:10.59,1:19:12.32,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}我希望你能收手
+Dialogue: 0,1:19:12.46,1:19:13.69,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}伯父
+Dialogue: 0,1:19:26.51,1:19:27.84,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}算了
+Dialogue: 0,1:19:28.78,1:19:30.64,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}挂电话吧
+Dialogue: 0,1:19:34.21,1:19:35.61,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}姊夫 是我
+Dialogue: 0,1:19:37.72,1:19:38.78,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}姊夫
+Dialogue: 0,1:19:39.65,1:19:41.62,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}最近好吗
+Dialogue: 0,1:19:42.02,1:19:44.08,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}那你过得好吗
+Dialogue: 0,1:19:44.22,1:19:47.46,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}因为在工作 所以比较忙
+Dialogue: 0,1:19:48.63,1:19:51.69,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}是吗 什么工作
+Dialogue: 0,1:19:52.47,1:19:54.96,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}怎么了 你知道我做什么工作啊
+Dialogue: 0,1:19:55.44,1:19:59.17,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}当然知道 但你偷偷在进行一些事
+Dialogue: 0,1:19:59.74,1:20:01.83,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}爸爸给你调查资料了 对吧
+Dialogue: 0,1:20:03.01,1:20:04.14,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}姊夫
+Dialogue: 0,1:20:05.78,1:20:09.68,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}我了解你的心情 但希望你能收手
+Dialogue: 0,1:20:11.28,1:20:14.01,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你这样姊姊也不会活过来啊
+Dialogue: 0,1:20:16.46,1:20:21.29,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}无论你如何惩治他都不能改变什么
+Dialogue: 0,1:20:22.73,1:20:27.67,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}复仇那种事是电影情节 那个人只是个疯子
+Dialogue: 0,1:20:29.24,1:20:33.04,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}对不起 我不知道要对你说什么
+Dialogue: 0,1:20:33.17,1:20:34.87,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}为什么没有话要说
+Dialogue: 0,1:20:36.14,1:20:37.87,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}我是外人吗
+Dialogue: 0,1:20:40.75,1:20:42.87,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你知道我最近怎样吗
+Dialogue: 0,1:20:43.52,1:20:48.01,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}走在路上害怕有人跟在后面 频频回头看
+Dialogue: 0,1:20:50.52,1:20:53.12,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}结果你说对我无话可说 怎么这样
+Dialogue: 0,1:20:58.06,1:21:02.23,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}所以姊夫 拜托你
+Dialogue: 0,1:21:03.90,1:21:05.80,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}这样做没有意义 请你收手
+Dialogue: 0,1:21:08.88,1:21:11.17,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}对不起 我要挂电话了
+Dialogue: 0,1:21:11.68,1:21:15.58,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}还有这件事不是没有意义的
+Dialogue: 0,1:21:17.05,1:21:18.64,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}姊夫
+Dialogue: 0,1:22:15.84,1:22:17.94,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}水 给我水
+Dialogue: 0,1:22:38.00,1:22:39.30,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}不会腻吗
+Dialogue: 0,1:22:42.00,1:22:43.13,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}尝一口
+Dialogue: 0,1:22:44.34,1:22:45.67,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}看看会不会腻
+Dialogue: 0,1:22:49.04,1:22:51.41,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你吃过一次之后
+Dialogue: 0,1:22:54.75,1:22:56.15,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}就不会想吃其他肉了
+Dialogue: 0,1:22:57.58,1:22:58.92,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}疯子
+Dialogue: 0,1:23:06.83,1:23:08.19,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你刚说什么
+Dialogue: 0,1:23:16.10,1:23:17.83,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}这个家伙
+Dialogue: 0,1:23:19.87,1:23:23.27,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}吃过人肉以后就变成疯子了
+Dialogue: 0,1:23:25.08,1:23:27.95,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}清醒一点 我是张敬哲啊
+Dialogue: 0,1:23:48.80,1:23:51.83,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}没错 我是疯了 完全疯了
+Dialogue: 0,1:23:52.37,1:23:55.36,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}肉太好吃了 所以我疯了
+Dialogue: 0,1:24:01.55,1:24:04.98,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}一紧张就会流泪 我怎么了
+Dialogue: 0,1:24:10.09,1:24:11.75,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}智障家伙
+Dialogue: 0,1:24:17.60,1:24:20.23,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}还记得我们第一次见面吗
+Dialogue: 0,1:24:23.00,1:24:27.46,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}组一个武装团体 让世界天翻地覆
+Dialogue: 0,1:24:30.78,1:24:32.64,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}还是那个时候好
+Dialogue: 0,1:24:35.28,1:24:37.51,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}天底下没什么好怕的 对吧
+Dialogue: 0,1:24:37.65,1:24:40.68,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}废话少说 给我一根烟
+Dialogue: 0,1:25:15.99,1:25:17.89,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}所以是死掉女人的家属之一罗
+Dialogue: 0,1:25:18.89,1:25:20.83,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}不然哪个疯子会这么做
+Dialogue: 0,1:25:26.93,1:25:28.99,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}他跟我们是同一类的 对吧
+Dialogue: 0,1:25:29.77,1:25:33.67,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}在享受打猎时的那种快感 对吧
+Dialogue: 0,1:25:36.38,1:25:40.28,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}抓了又放走 抓了又放走
+Dialogue: 0,1:25:41.55,1:25:43.24,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}就像是在玩打猎游戏
+Dialogue: 0,1:25:43.68,1:25:45.74,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}享受猎物所感受的痛苦
+Dialogue: 0,1:25:47.79,1:25:48.88,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你
+Dialogue: 0,1:25:51.02,1:25:54.59,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}应该是被得死死的了
+Dialogue: 0,1:26:00.07,1:26:03.97,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}他失去女人后就完全变成疯子了啊
+Dialogue: 0,1:26:06.24,1:26:09.21,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}怪物出现了 好有趣啊
+Dialogue: 0,1:26:28.86,1:26:32.20,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你也累了 快去睡吧 有很多空房间
+Dialogue: 0,1:26:33.17,1:26:34.79,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}爱睡哪里都可以
+Dialogue: 0,1:26:38.20,1:26:40.23,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}那我来准备我的早餐吧
+Dialogue: 0,1:26:58.36,1:26:59.79,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}混帐家伙们
+Dialogue: 0,1:27:12.67,1:27:16.16,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}在享受打猎时的那种快感
+Dialogue: 0,1:27:16.31,1:27:20.08,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}抓了又放走 抓了又放走
+Dialogue: 0,1:27:20.21,1:27:22.41,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}享受猎物所感受的痛苦
+Dialogue: 0,1:27:24.08,1:27:26.02,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}就像在玩打猎游戏
+Dialogue: 0,1:27:29.66,1:27:31.42,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}会越来越恐怖的
+Dialogue: 0,1:27:42.94,1:27:44.43,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}真有趣
+Dialogue: 0,1:27:56.62,1:27:58.38,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}来
+Dialogue: 0,1:27:58.52,1:28:00.99,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}咦 没有内脏了吗
+Dialogue: 0,1:28:04.82,1:28:06.85,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}这边也没有
+Dialogue: 0,1:28:08.19,1:28:09.59,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}那么
+Dialogue: 0,1:28:31.42,1:28:33.18,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}妈的
+Dialogue: 0,1:29:21.23,1:29:23.03,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}不要这样
+Dialogue: 0,1:29:23.17,1:29:24.90,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你前天没看到你姊姊吗
+Dialogue: 0,1:29:26.27,1:29:31.07,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}一直反抗就会更痛更久
+Dialogue: 0,1:29:36.18,1:29:39.35,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}马上就会结束 忍一下吧
+Dialogue: 0,1:29:43.19,1:29:44.99,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}所以干嘛要随便怀疑人家嘛
+Dialogue: 0,1:29:47.09,1:29:49.99,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}妈的 我是跟你要钱还是要房子了
+Dialogue: 0,1:29:50.13,1:29:52.89,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}就说了待几天就走 你们是怎么了
+Dialogue: 0,1:29:54.03,1:29:55.33,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}对不起
+Dialogue: 0,1:29:55.94,1:29:57.63,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}真的很抱歉
+Dialogue: 0,1:30:02.68,1:30:06.51,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}那种道歉的话要早点说啊
+Dialogue: 0,1:30:08.61,1:30:10.31,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}这些蠢蛋们
+Dialogue: 0,1:30:12.19,1:30:15.92,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}每次都等事情发生后才要补救
+Dialogue: 0,1:30:16.86,1:30:17.95,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}等一下 等一下
+Dialogue: 0,1:30:18.09,1:30:20.96,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}手 脚 头 顺序没错吧
+Dialogue: 0,1:30:23.03,1:30:24.00,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}闭上眼睛
+Dialogue: 0,1:30:24.13,1:30:25.26,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}不要看会比较好
+Dialogue: 0,1:31:28.19,1:31:29.56,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}去哪里了
+Dialogue: 0,1:31:39.61,1:31:41.60,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}怎么无声无息就溜进来了
+Dialogue: 0,1:32:16.18,1:32:18.27,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}我怀孕了
+Dialogue: 0,1:32:23.22,1:32:25.51,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}本来还挺好奇是长怎样的家伙
+Dialogue: 0,1:32:27.82,1:32:29.75,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}看起来不像怪物啊
+Dialogue: 0,1:32:32.26,1:32:33.92,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}疯子
+Dialogue: 0,1:33:43.40,1:33:45.23,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}手 脚 头 顺序没错吧
+Dialogue: 0,1:33:45.90,1:33:48.16,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}我要以其人之道 还治其人之身
+Dialogue: 0,1:33:48.77,1:33:50.74,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}不会更过分的 你放心
+Dialogue: 0,1:33:51.77,1:33:54.00,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}蠢到不行的神经病
+Dialogue: 0,1:37:51.91,1:37:53.64,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}混帐家伙
+Dialogue: 0,1:38:14.67,1:38:18.10,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}为什么 为什么
+Dialogue: 0,1:38:18.24,1:38:20.40,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}为什么 为什么
+Dialogue: 0,1:38:20.54,1:38:22.80,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}为什么 为什么
+Dialogue: 0,1:38:24.98,1:38:29.14,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}为什么 为什么
+Dialogue: 0,1:40:05.81,1:40:07.80,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}其实我松了一口气
+Dialogue: 0,1:40:08.61,1:40:11.41,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}我本来担心大哥你会出事
+Dialogue: 0,1:40:13.75,1:40:16.62,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}是国情局的那个金修玄 没错吧
+Dialogue: 0,1:40:18.06,1:40:21.12,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你要看他最近都在做什么吗 大哥
+Dialogue: 0,1:40:27.73,1:40:29.20,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你叫他收手吧
+Dialogue: 0,1:40:29.90,1:40:33.96,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}人不能因为要对付禽兽而变成禽兽
+Dialogue: 0,1:40:36.38,1:40:42.71,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你也很挂心这件事情 不是吗
+Dialogue: 0,1:40:43.35,1:40:44.41,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}他现在在哪里
+Dialogue: 0,1:40:44.55,1:40:46.48,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}已经送急诊了 身体应该不会有大碍
+Dialogue: 0,1:40:51.72,1:40:54.39,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你知道那家伙和你睡了两天了吗
+Dialogue: 0,1:40:57.26,1:40:58.85,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}到底发生了什么事
+Dialogue: 0,1:41:01.53,1:41:02.73,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}前辈
+Dialogue: 0,1:41:03.90,1:41:05.80,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你要不要交出那家伙
+Dialogue: 0,1:41:09.07,1:41:10.34,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}还早呢
+Dialogue: 0,1:41:10.91,1:41:12.43,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你还想怎样
+Dialogue: 0,1:41:14.68,1:41:16.08,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你知道吗
+Dialogue: 0,1:41:18.72,1:41:21.58,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}心里有一块大石头的感觉
+Dialogue: 0,1:41:23.99,1:41:25.32,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}那种心情
+Dialogue: 0,1:41:29.26,1:41:35.86,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}我答应过珠妍 她所受的都要还给他
+Dialogue: 0,1:41:38.70,1:41:40.47,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}现在还不是时候
+Dialogue: 0,1:41:43.71,1:41:44.97,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}还早的很呢
+Dialogue: 0,1:41:48.45,1:41:50.35,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}知道了 我不会再问了
+Dialogue: 0,1:41:51.72,1:41:54.35,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}对了 那个胶囊好用吧
+Dialogue: 0,1:41:54.49,1:41:55.95,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}除非他一直拉肚子
+Dialogue: 0,1:42:03.50,1:42:06.19,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}他被注射了很强的药 现在睡死了
+Dialogue: 0,1:42:07.10,1:42:09.33,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}看来还要再睡一天
+Dialogue: 0,1:42:17.98,1:42:19.47,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}前辈
+Dialogue: 0,1:42:19.61,1:42:21.24,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你知道你变了很多吗
+Dialogue: 0,1:43:57.94,1:43:58.53,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}欢迎光临
+Dialogue: 0,1:43:58.68,1:44:01.01,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}给我消炎止痛药
+Dialogue: 0,1:44:01.15,1:44:03.64,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}什么 要哪种的
+Dialogue: 0,1:44:04.52,1:44:05.71,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}给我药效最强的
+Dialogue: 0,1:44:05.85,1:44:06.98,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}好的
+Dialogue: 0,1:44:10.66,1:44:14.39,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你在哪里 好像不在附近
+Dialogue: 0,1:44:14.53,1:44:19.86,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}有在听吗 应该有在听吧 嗯
+Dialogue: 0,1:44:20.57,1:44:27.10,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}真有趣 没想到会遇到如此有趣的事
+Dialogue: 0,1:44:30.21,1:44:31.40,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}喂
+Dialogue: 0,1:44:31.54,1:44:33.53,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}让我猜猜你是谁 好吗
+Dialogue: 0,1:44:34.38,1:44:38.71,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}是住在延禧洞的张珠妍 没错吧
+Dialogue: 0,1:44:40.05,1:44:42.04,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}我没说错吧
+Dialogue: 0,1:44:42.92,1:44:45.58,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}但是 你做错了
+Dialogue: 0,1:44:47.59,1:44:49.49,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你太低估我了
+Dialogue: 0,1:44:50.63,1:44:53.60,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}很快你就会后悔没有杀了我
+Dialogue: 0,1:44:54.00,1:44:55.19,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}不用很久
+Dialogue: 0,1:44:56.07,1:44:57.04,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}欢迎光临
+Dialogue: 0,1:44:57.50,1:45:01.06,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}等着吧 我会让你知道真正的痛苦
+Dialogue: 0,1:45:04.11,1:45:05.20,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你在做什么
+Dialogue: 0,1:45:06.31,1:45:07.28,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}这位先生
+Dialogue: 0,1:45:11.12,1:45:12.21,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}对了
+Dialogue: 0,1:45:13.59,1:45:15.45,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}张珠妍在死之前有说过
+Dialogue: 0,1:45:16.49,1:45:17.92,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}说她怀孕了
+Dialogue: 0,1:45:20.29,1:45:21.62,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}求我饶了她
+Dialogue: 0,1:45:25.20,1:45:26.63,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你知道吗
+Dialogue: 0,1:45:36.24,1:45:40.54,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}快 快 不快一点 那个老头就会死
+Dialogue: 0,1:45:42.65,1:45:45.21,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你不应该离我这样的猎物太远
+Dialogue: 0,1:47:13.84,1:47:15.33,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你干什么东西啊
+Dialogue: 0,1:48:27.08,1:48:30.78,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}张敬哲 你去哪里了
+Dialogue: 0,1:48:54.81,1:48:58.47,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}需要这么拼命地救活那种混帐吗
+Dialogue: 0,1:49:00.65,1:49:04.64,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}看到那些家伙们 我都不想当人了
+Dialogue: 0,1:49:05.32,1:49:06.78,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}醒过来要通知我
+Dialogue: 0,1:49:14.39,1:49:16.59,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}又怎么了
+Dialogue: 0,1:49:17.73,1:49:19.46,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}喂 什么事
+Dialogue: 0,1:49:22.50,1:49:23.66,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}什么
+Dialogue: 0,1:49:25.70,1:49:27.19,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你说真的吗
+Dialogue: 0,1:49:29.91,1:49:31.03,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}知道了
+Dialogue: 0,1:49:33.25,1:49:34.47,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}喂
+Dialogue: 0,1:49:35.21,1:49:36.87,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}听说张敬哲要自首
+Dialogue: 0,1:49:37.28,1:49:39.84,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}妈的 你大错特错了
+Dialogue: 0,1:50:33.87,1:50:34.93,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}起来
+Dialogue: 0,1:50:46.08,1:50:47.55,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}我有话要问你
+Dialogue: 0,1:50:48.82,1:50:51.98,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你朋友会去哪里
+Dialogue: 0,1:51:04.44,1:51:08.93,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你惹错人了
+Dialogue: 0,1:51:10.68,1:51:15.24,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}他所承受的 一定会如数奉还给你
+Dialogue: 0,1:51:15.98,1:51:18.01,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你懂我的意思吗
+Dialogue: 0,1:51:22.99,1:51:36.10,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你的女人和她家人 最后他再自首 你就没戏唱了
+Dialogue: 0,1:51:39.47,1:51:40.94,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}但是
+Dialogue: 0,1:51:43.17,1:51:46.58,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你的女人应该没有很难受
+Dialogue: 0,1:51:47.68,1:51:54.78,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}那家伙跟我不同 他都会先给点甜头
+Dialogue: 0,1:51:59.29,1:52:01.69,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}他是会先给点甜头的家伙
+Dialogue: 0,1:52:05.83,1:52:06.99,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}好笑吗
+Dialogue: 0,1:52:09.03,1:52:10.52,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}那会好笑吗
+Dialogue: 0,1:52:12.90,1:52:14.50,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你觉得好笑是吗
+Dialogue: 0,1:52:24.12,1:52:27.74,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}我把你的脸用成终生都在笑的脸
+Dialogue: 0,1:52:35.89,1:52:37.59,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}我们追踪到张敬哲的电话信号
+Dialogue: 0,1:52:38.43,1:52:42.06,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}因为担心你 所以正在查警方的纪录
+Dialogue: 0,1:52:42.20,1:52:45.29,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}刚刚张敬哲有打过来说今天要自首
+Dialogue: 0,1:52:45.77,1:52:51.44,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}他说要先办一件事 不知道是否又要闹事
+Dialogue: 0,1:52:51.91,1:52:53.24,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}监听位置的显示是哪里
+Dialogue: 0,1:52:53.38,1:52:54.47,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}延禧洞
+Dialogue: 0,1:53:18.74,1:53:20.23,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}送快递
+Dialogue: 0,1:53:42.09,1:53:43.36,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}是吴课长吗
+Dialogue: 0,1:53:46.03,1:53:47.29,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}我是金修玄
+Dialogue: 0,1:53:48.03,1:53:49.26,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}什么
+Dialogue: 0,1:53:50.17,1:53:52.50,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}谁让你把事情搞到这个地步
+Dialogue: 0,1:53:53.84,1:53:59.37,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}大哥出事的话 我要你死在我手里 知道吗
+Dialogue: 0,1:53:59.78,1:54:01.41,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}回答我 混帐
+Dialogue: 0,1:54:05.92,1:54:10.62,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}联络张班长家附近的人员 快掉头
+Dialogue: 0,1:54:10.76,1:54:12.15,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}赶快掉头 快
+Dialogue: 0,1:56:12.21,1:56:14.97,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}像吗 不像
+Dialogue: 0,1:56:15.88,1:56:18.68,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}珠妍应该长得像妈妈
+Dialogue: 0,1:56:20.18,1:56:22.24,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}像爸爸就糟糕了
+Dialogue: 0,1:56:27.66,1:56:30.99,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}老人家干嘛一直横冲直撞的
+Dialogue: 0,1:56:31.40,1:56:33.73,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}疯了吗 疯了不成
+Dialogue: 0,1:56:36.70,1:56:40.76,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}等一下 在哪里
+Dialogue: 0,1:56:43.47,1:56:47.84,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}我要怎么做 他才会被惹毛呢
+Dialogue: 0,1:56:48.61,1:56:51.88,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}这样做才会被惹毛吗
+Dialogue: 0,1:56:52.02,1:56:53.31,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}这样做
+Dialogue: 0,1:56:53.82,1:56:55.22,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}这样
+Dialogue: 0,1:56:56.69,1:56:58.71,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}这样 妈的
+Dialogue: 0,1:57:57.45,1:57:58.57,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}爸爸
+Dialogue: 0,1:58:01.15,1:58:02.38,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}我回来了
+Dialogue: 0,1:58:54.54,1:58:55.77,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}请不要过来
+Dialogue: 0,1:58:55.91,1:58:57.64,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}-请往后面 -发生什么事了
+Dialogue: 0,1:58:58.41,1:59:00.17,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}-请走开 -是发生了什么事吗
+Dialogue: 0,1:59:00.31,1:59:03.30,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你不能进来 你不能进来
+Dialogue: 0,1:59:09.59,1:59:10.75,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你是谁
+Dialogue: 0,1:59:13.66,1:59:17.12,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}什么事 放手 放开他
+Dialogue: 0,1:59:19.06,1:59:21.05,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你就是金修玄吗
+Dialogue: 0,1:59:26.90,1:59:29.81,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你这混帐东西 你给我过来
+Dialogue: 0,1:59:29.94,1:59:34.50,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你做了什么事啊 还有脸来这里
+Dialogue: 0,1:59:34.65,1:59:37.38,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}让人作恶的家伙
+Dialogue: 0,1:59:37.52,1:59:39.75,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}放开我 放手
+Dialogue: 0,1:59:44.32,1:59:46.62,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}这个莫名其妙的家伙
+Dialogue: 0,1:59:51.40,1:59:53.99,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}让开 闪开
+Dialogue: 0,2:01:30.23,2:01:31.29,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}喂
+Dialogue: 0,2:01:31.43,2:01:32.95,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}我是张敬哲
+Dialogue: 0,2:01:34.30,2:01:35.29,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你这混蛋
+Dialogue: 0,2:01:38.64,2:01:40.83,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你这混蛋在哪里
+Dialogue: 0,2:01:41.61,2:01:44.44,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你没有把世妍怎么样吧
+Dialogue: 0,2:01:45.21,2:01:47.64,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你可以晚点再做确认
+Dialogue: 0,2:01:52.68,2:01:54.01,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}什么
+Dialogue: 0,2:02:02.49,2:02:03.69,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}接电话
+Dialogue: 0,2:02:20.08,2:02:21.24,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}喂
+Dialogue: 0,2:02:31.62,2:02:33.56,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}怎么样 现在有感觉了吗
+Dialogue: 0,2:02:34.36,2:02:39.23,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}谁叫你对我乱来 你这莽撞的家伙
+Dialogue: 0,2:02:40.33,2:02:42.27,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你认为是谁赢了
+Dialogue: 0,2:02:43.30,2:02:45.67,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}是你赢吗 还是我赢
+Dialogue: 0,2:04:13.66,2:04:14.85,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}张敬哲 张敬哲
+Dialogue: 0,2:04:16.36,2:04:18.39,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}班长 张敬哲出现了
+Dialogue: 0,2:04:19.03,2:04:20.29,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}等一下 先等一下
+Dialogue: 0,2:05:23.49,2:05:24.52,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}查看车内
+Dialogue: 0,2:05:29.80,2:05:30.93,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}那辆车是怎样
+Dialogue: 0,2:05:34.11,2:05:35.20,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}那家伙要干嘛
+Dialogue: 0,2:05:36.11,2:05:37.10,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}阻止那辆车
+Dialogue: 0,2:05:41.25,2:05:42.34,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}快阻止他啊
+Dialogue: 0,2:05:52.89,2:05:53.82,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}抓他
+Dialogue: 0,2:05:55.36,2:05:59.39,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}快去抓 抓他
+Dialogue: 0,2:06:00.13,2:06:01.29,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}快抓他
+Dialogue: 0,2:07:08.70,2:07:10.19,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你说的没错
+Dialogue: 0,2:07:13.64,2:07:15.47,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}是我做错了
+Dialogue: 0,2:07:22.28,2:07:24.37,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}我太低估你了
+Dialogue: 0,2:07:40.20,2:07:42.19,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}现在起我会好好对待你的
+Dialogue: 0,2:07:49.51,2:07:51.20,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}混蛋 你在干嘛
+Dialogue: 0,2:07:51.34,2:07:53.31,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你在做什么
+Dialogue: 0,2:07:56.58,2:07:59.57,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}才正要开始 怎么现在就这样了
+Dialogue: 0,2:08:03.29,2:08:08.28,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}混蛋 你这混蛋 快点杀我
+Dialogue: 0,2:08:08.43,2:08:12.79,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}快把我杀了 混蛋
+Dialogue: 0,2:08:12.93,2:08:14.63,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你这个混蛋
+Dialogue: 0,2:08:14.77,2:08:18.17,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}混蛋 快把我杀了 混蛋
+Dialogue: 0,2:08:18.30,2:08:20.93,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}快把我杀了 混蛋
+Dialogue: 0,2:08:29.01,2:08:32.31,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}时间还没到 再等一下
+Dialogue: 0,2:08:36.35,2:08:40.31,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你想想看 如果要杀早就杀了
+Dialogue: 0,2:08:43.46,2:08:46.99,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}要在你最痛苦的时候杀了你
+Dialogue: 0,2:08:48.67,2:08:53.26,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}最痛苦 因恐惧而颤抖时
+Dialogue: 0,2:08:54.10,2:08:55.70,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}要在那个时候杀了你
+Dialogue: 0,2:08:59.64,2:09:03.91,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}那才是真正的复仇
+Dialogue: 0,2:09:05.85,2:09:07.75,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}真正彻底的复仇
+Dialogue: 0,2:09:19.36,2:09:22.82,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}饶了我 拜托
+Dialogue: 0,2:09:22.97,2:09:26.16,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}饶了 我
+Dialogue: 0,2:09:26.30,2:09:28.17,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}饶了
+Dialogue: 0,2:09:34.01,2:09:38.57,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你听过很多次了吧 饶了我这句话
+Dialogue: 0,2:09:44.12,2:09:46.45,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你听到那种话很开心吧
+Dialogue: 0,2:09:47.83,2:09:52.46,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}饶了我吧 饶了我
+Dialogue: 0,2:09:59.67,2:10:03.77,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}我会付出代价的
+Dialogue: 0,2:10:07.44,2:10:17.48,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}所以 都做到这样了 就饶了我吧
+Dialogue: 0,2:10:20.12,2:10:26.89,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}做到这个地步就住手吧
+Dialogue: 0,2:10:41.01,2:10:44.54,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}拜托 饶了我吧
+Dialogue: 0,2:10:47.62,2:10:50.05,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}真的很对不起
+Dialogue: 0,2:11:02.53,2:11:08.20,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}拜托 拜
+Dialogue: 0,2:11:18.85,2:11:20.18,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}恐惧吗
+Dialogue: 0,2:11:26.02,2:11:29.19,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}说说看 害怕吗
+Dialogue: 0,2:11:35.00,2:11:39.77,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}终于知道你做了什么吗
+Dialogue: 0,2:12:03.46,2:12:11.33,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你玩够了就住手吧 混蛋
+Dialogue: 0,2:12:17.04,2:12:18.37,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}喂
+Dialogue: 0,2:12:19.44,2:12:22.21,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}不要再讲废话了
+Dialogue: 0,2:12:25.42,2:12:27.61,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你已经输了
+Dialogue: 0,2:12:30.99,2:12:33.98,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你以为你在玩我吧
+Dialogue: 0,2:12:34.93,2:12:36.22,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}啊
+Dialogue: 0,2:12:38.80,2:12:41.03,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}开什么玩笑
+Dialogue: 0,2:12:43.30,2:12:47.86,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}我 不懂什么是痛苦
+Dialogue: 0,2:12:49.21,2:12:53.77,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}恐惧 我也不懂
+Dialogue: 0,2:12:56.38,2:13:02.11,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你从我身上是什么也得不到的
+Dialogue: 0,2:13:09.49,2:13:10.69,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}所以
+Dialogue: 0,2:13:12.86,2:13:15.39,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你已经输了
+Dialogue: 0,2:13:18.67,2:13:19.90,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}明白吗
+Dialogue: 0,2:13:50.57,2:13:51.93,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}我希望
+Dialogue: 0,2:13:53.97,2:13:57.00,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你死了以后也会很痛苦
+Dialogue: 0,2:15:44.72,2:15:49.31,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你这混蛋 听得到吗
+Dialogue: 0,2:15:50.15,2:15:57.29,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}混蛋 我不会死 混帐 我不会死
+Dialogue: 0,2:15:58.66,2:16:02.79,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}混蛋你听见了吗 听得清楚吗
+Dialogue: 0,2:16:02.93,2:16:06.06,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}不管你说什么我都不会恐惧
+Dialogue: 0,2:16:09.24,2:16:12.80,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}妈的 你好像太小看我了
+Dialogue: 0,2:16:20.48,2:16:21.71,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}爸爸
+Dialogue: 0,2:16:24.05,2:16:25.25,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}爸爸
+Dialogue: 0,2:16:28.93,2:16:29.98,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你
+Dialogue: 0,2:16:30.76,2:16:34.09,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}你 你 不要开门
+Dialogue: 0,2:16:34.23,2:16:35.49,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}爸爸
+Dialogue: 0,2:16:40.34,2:16:42.57,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}不要进来 不要开门
+Dialogue: 0,2:16:42.71,2:16:46.64,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}尚元 尚元
+Dialogue: 0,2:16:46.74,2:16:47.71,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}不要进来
+Dialogue: 0,2:16:47.84,2:16:50.78,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}他在说什么 走开
+Dialogue: 0,2:16:53.02,2:16:54.38,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}不要开门
+Dialogue: 0,2:16:57.72,2:16:58.95,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}怎么打不开
+Dialogue: 0,2:16:59.09,2:17:03.05,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}不行 老人家来这里是要干嘛
+Dialogue: 0,2:17:03.19,2:17:05.18,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}-敬哲 -妈 妈
+Dialogue: 0,2:17:05.33,2:17:06.16,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}在里面吗
+Dialogue: 0,2:17:06.30,2:17:08.66,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}妈 不要
+Dialogue: 0,2:17:08.80,2:17:13.50,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}别开门 不要开门 快点回去
+Dialogue: 0,2:17:44.77,2:17:47.79,Default,,0000,0000,0000,,{\fnSimHei\shad1\2a&HF0&\4a&H32&\pos(192,278)\2c&H000000&\b0\be1}敬哲 敬哲
+
