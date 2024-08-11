@@ -1,0 +1,28 @@
+Here is the requested information in the specified format:
+
+msubtitles:
+  - source: https://github.com/ericvlog/subtitles/tree/main/%E5%B0%86%E6%AD%BB%E4%B9%8B%E4%BA%BA
+    subtitles:
+      - season: 1
+        items:
+          - path: Those.About.to.Die.S01E01.1080p.WEB.h264-ETHEL.zh-CN-dual-double.srt
+            episode: 1
+            delay: 0
+          - path: Those.About.to.Die.S01E02.1080p.WEB.h264-ETHEL.zh-CN-dual-double.srt 
+            episode: 2
+          - path: Those.About.to.Die.S01E03.1080p.WEB.h264-ETHEL.zh-CN-dual-double.srt
+            episode: 3
+          - path: Those.About.to.Die.S01E04.1080p.WEB.h264-ETHEL.zh-CN-dual-double.srt
+            episode: 4
+          - path: Those.About.to.Die.S01E05.1080p.WEB.h264-ETHEL.zh-CN-dual-double.srt
+            episode: 5
+          - path: Those.About.to.Die.S01E06.1080p.WEB.h264-ETHEL.zh-CN-dual-double.srt
+            episode: 6
+          - path: Those.About.to.Die.S01E07.1080p.WEB.h264-ETHEL.zh-CN-dual-double.srt
+            episode: 7
+          - path: Those.About.to.Die.S01E08.2160p.WEB.h265-ETHEL_track3_[eng].zh-CN-dual-double.srt
+            episode: 8
+          - path: Those.About.to.Die.S01E09.1080p.WEB.h264-ETHEL.zh-CN-dual-double.srt
+            episode: 9
+          - path: Those.About.to.Die.S01E10.1080p.WEB.h264-ETHEL.zh-CN-dual-double.srt
+            episode: 10
