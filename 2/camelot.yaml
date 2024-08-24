@@ -1,1 +1,35 @@
-
+msubtitles:
+  - source: https://raw.githubusercontent.com/ericvlog/subtitles/main/2
+    subtitles:
+      - season: 1
+        items:
+          - path: Camelot.S01E01.720p.BluRay.x264.DTS-LU9998.chs.srt
+            episode: 1
+            delay: 0
+          - path: Camelot.S01E02.720p.BluRay.x264.DTS-LU9998.chs.srt
+            episode: 2
+            delay: 0
+          - path: Camelot.S01E03.720p.BluRay.x264.DTS-LU9998.chs.srt
+            episode: 3
+            delay: 0
+          - path: Camelot.S01E04.720p.BluRay.x264.DTS-LU9998.chs.srt
+            episode: 4
+            delay: 0
+          - path: Camelot.S01E05.720p.BluRay.x264.DTS-LU9998.chs.srt
+            episode: 5
+            delay: 0
+          - path: Camelot.S01E06.720p.BluRay.x264.DTS-LU9998.chs.srt
+            episode: 6
+            delay: 0
+          - path: Camelot.S01E07.720p.BluRay.x264.DTS-LU9998.chs.srt
+            episode: 7
+            delay: 0
+          - path: Camelot.S01E08.720p.BluRay.x264.DTS-LU9998.chs.srt
+            episode: 8
+            delay: 0
+          - path: Camelot.S01E09.720p.BluRay.x264.DTS-LU9998.chs.srt
+            episode: 9
+            delay: 0
+          - path: Camelot.S01E10.720p.BluRay.x264.DTS-LU9998.chs.srt
+            episode: 10
+            delay: 0
