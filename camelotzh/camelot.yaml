@@ -1,0 +1,25 @@
+msubtitles:
+  - source: https://raw.githubusercontent.com/ericvlog/subtitles/main/camelotzh
+    subtitles:
+      - season: 1
+        items:
+          - path: camelot/Camelot.S01E01.720p.BluRay.X264-REWARD.ass
+            episode: 1
+          - path: camelot/Camelot.S01E02.720p.BluRay.X264-REWARD.ass
+            episode: 2
+          - path: camelot/Camelot.S01E03.720p.BluRay.X264-REWARD.ass
+            episode: 3
+          - path: camelot/Camelot.S01E04.720p.BluRay.X264-REWARD.ass
+            episode: 4
+          - path: camelot/Camelot.S01E05.720p.BluRay.X264-REWARD.ass
+            episode: 5
+          - path: camelot/Camelot.S01E06.720p.BluRay.X264-REWARD.ass
+            episode: 6
+          - path: camelot/Camelot.S01E07.720p.BluRay.X264-REWARD.ass
+            episode: 7
+          - path: camelot/Camelot.S01E08.720p.BluRay.X264-REWARD.ass
+            episode: 8
+          - path: camelot/Camelot.S01E09.720p.BluRay.X264-REWARD.ass
+            episode: 9
+          - path: camelot/Camelot.S01E10.720p.BluRay.X264-REWARD.ass
+            episode: 10
