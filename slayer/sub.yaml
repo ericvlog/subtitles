@@ -28,9 +28,19 @@ msubtitles:
             episode: 11
           - path: Goblin.Slayer.S01E12.The.Fate.of.an.Adventurer.zh.srt
             episode: 12
-
       - season: 2
         items:
+          - path: Goblin.Slayer.II.S02E01.An.Ordinary.Spring.Day.zh.srt
+            episode: 1
+            delay: 0
+          - path: Goblin.Slayer.II.S02E02.The.Red-Haired.Wizard.Boy.zh.srt
+            episode: 2
+          - path: Goblin.Slayer.II.S02E03.The.Training.Grounds.on.the.Outskirts.of.Town.zh.srt
+            episode: 3
+          - path: Goblin.Slayer.II.S02E04.Onward.to.Adventure.zh.srt
+            episode: 4
+          - path: Goblin.Slayer.II.S02E05.Beard-cutter,to.the.Southern.River.zh.srt
+            episode: 5
           - path: Goblin.Slayer.II.S02E06.The.Elven.King's.Forest.zh.srt
             episode: 6
           - path: Goblin.Slayer.II.S02E07.Jungle.Cruise.zh.srt
