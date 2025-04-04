@@ -1,1 +1,30 @@
-go
+msubtitles:
+  - source: https://raw.githubusercontent.com/ericvlog/subtitles/main/goblin.slayer/
+    subtitles:
+      - season: 1
+        items:
+          - path: Goblin.Slayer.S01E01.The.Fate.of.Particular.Adventurers.zh.srt
+            episode: 1
+            delay: 0
+          - path: Goblin.Slayer.S01E02.Goblin.Slayer.zh.srt
+            episode: 2
+          - path: Goblin.Slayer.S01E03.Unexpected.Visitors.zh.srt
+            episode: 3
+          - path: Goblin.Slayer.S01E04.The.Strong.zh.srt
+            episode: 4
+          - path: Goblin.Slayer.S01E05.Adventures.and.Daily.Life.zh.srt
+            episode: 5
+          - path: Goblin.Slayer.S01E06.Goblin.Slayer.in.the.Water.Town.zh.srt
+            episode: 6
+          - path: Goblin.Slayer.S01E07.Onward.Unto.Death.zh.srt
+            episode: 7
+          - path: Goblin.Slayer.S01E08.Whispers.and.Prayers.and.Chants.zh.srt
+            episode: 8
+          - path: Goblin.Slayer.S01E09.There.and.Back.Again.zh.srt
+            episode: 9
+          - path: Goblin.Slayer.S01E10.Dozing.zh.srt
+            episode: 10
+          - path: Goblin.Slayer.S01E11.A.Gathering.of.Adventurers.zh.srt
+            episode: 11
+          - path: Goblin.Slayer.S01E12.The.Fate.of.an.Adventurer.zh.srt
+            episode: 12
