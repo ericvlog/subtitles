@@ -1,1 +1,20 @@
-1
+msubtitles:
+  - source: https://raw.githubusercontent.com/ericvlog/subtitles/main/agent.aika/
+    subtitles:
+      - season: 1
+        items:
+          - path: Agent.Aika.S01E01.Beautiful.Agent.zh.srt
+            episode: 1
+            delay: 0
+          - path: Agent.Aika.S01E02.Naked.Mission.zh.srt
+            episode: 2
+          - path: Agent.Aika.S01E03.Takeoff.Position.zh.srt
+            episode: 3
+          - path: Agent.Aika.S01E04.A.Flower.Blooming.in.Space.zh.srt
+            episode: 4
+          - path: Agent.Aika.S01E05.The.Golden.Delmo.Operation.zh.srt
+            episode: 5
+          - path: Agent.Aika.S01E06.Delmo.Operation.White.Silver.zh.srt
+            episode: 6
+          - path: Agent.Aika.S01E07.Break.the.Decisive.Battle!.Delmo.Base!.zh.srt
+            episode: 7
