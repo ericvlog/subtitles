@@ -1,1 +1,30 @@
-h
+msubtitles:
+  - source: https://raw.githubusercontent.com/ericvlog/subtitles/main/a.queen.who.crowns/
+    subtitles:
+      - season: 1
+        items:
+          - path: %E5%85%83%E6%95%ACKR.E01.2025(%E8%BD%A6%E7%8F%A0%E8%8B%B1).TVING-Sniper.chs_iqiyi.srt
+            episode: 1
+            delay: 0
+          - path: %E5%85%83%E6%95%ACKR.E02.2025(%E8%BD%A6%E7%8F%A0%E8%8B%B1).TVING-Sniper.chs_iqiyi.srt
+            episode: 2
+          - path: %E5%85%83%E6%95%ACKR.E03.2025(%E8%BD%A6%E7%8F%A0%E8%8B%B1).TVING-Sniper.chs_iqiyi.srt
+            episode: 3
+          - path: %E5%85%83%E6%95%ACKR.E04.2025(%E8%BD%A6%E7%8F%A0%E8%8B%B1).TVING-Sniper.chs_iqiyi.srt
+            episode: 4
+          - path: %E5%85%83%E6%95%ACKR.E05.2025(%E8%BD%A6%E7%8F%A0%E8%8B%B1).TVING-Phanteam.chs_iqiyi.srt
+            episode: 5
+          - path: %E5%85%83%E6%95%ACKR.E06.2025(%E8%BD%A6%E7%8F%A0%E8%8B%B1).TVING-Phanteam.chs_iqiyi.srt
+            episode: 6
+          - path: %E5%85%83%E6%95%ACKR.E07.2025(%E8%BD%A6%E7%8F%A0%E8%8B%B1).TVING-Phanteam.chs_iqiyi.srt
+            episode: 7
+          - path: %E5%85%83%E6%95%ACKR.E08.2025(%E8%BD%A6%E7%8F%A0%E8%8B%B1).TVING-Phanteam.chs_iqiyi.srt
+            episode: 8
+          - path: %E5%85%83%E6%95%ACKR.E09.2025(%E8%BD%A6%E7%8F%A0%E8%8B%B1).TVING-Phanteam.chs_iqiyi.srt
+            episode: 9
+          - path: %E5%85%83%E6%95%ACKR.E10.2025(%E8%BD%A6%E7%8F%A0%E8%8B%B1).TVING-Phanteam.chs_iqiyi.srt
+            episode: 10
+          - path: %E5%85%83%E6%95%ACKR.E11.2025(%E8%BD%A6%E7%8F%A0%E8%8B%B1).TVING-Phanteam.chs_iqiyi.srt
+            episode: 11
+          - path: %E5%85%83%E6%95%ACKR.E12.2025(%E8%BD%A6%E7%8F%A0%E8%8B%B1).TVING-Phanteam.chs_iqiyi.srt
+            episode: 12
