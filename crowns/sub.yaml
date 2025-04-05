@@ -1,1 +1,30 @@
-1
+msubtitles:
+  - source: https://raw.githubusercontent.com/ericvlog/subtitles/main/crowns/
+    subtitles:
+      - season: 1
+        items:
+          - path: The.Queen.Who.Crowns.S01E01.Episode.1.zh.srt
+            episode: 1
+            delay: 0
+          - path: The.Queen.Who.Crowns.S01E02.Episode.2.zh.srt
+            episode: 2
+          - path: The.Queen.Who.Crowns.S01E03.Episode.3.zh.srt
+            episode: 3
+          - path: The.Queen.Who.Crowns.S01E04.Episode.4.zh.srt
+            episode: 4
+          - path: The.Queen.Who.Crowns.S01E05.Episode.5.zh.srt
+            episode: 5
+          - path: The.Queen.Who.Crowns.S01E06.Episode.6.zh.srt
+            episode: 6
+          - path: The.Queen.Who.Crowns.S01E07.Episode.7.zh.srt
+            episode: 7
+          - path: The.Queen.Who.Crowns.S01E08.Episode.8.zh.srt
+            episode: 8
+          - path: The.Queen.Who.Crowns.S01E09.Episode.9.zh.srt
+            episode: 9
+          - path: The.Queen.Who.Crowns.S01E10.Episode.10.zh.srt
+            episode: 10
+          - path: The.Queen.Who.Crowns.S01E11.Episode.11.zh.srt
+            episode: 11
+          - path: The.Queen.Who.Crowns.S01E12.Episode.12.zh.srt
+            episode: 12
