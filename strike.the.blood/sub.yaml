@@ -1,1 +1,134 @@
-1
+msubtitles:
+  - source: https://raw.githubusercontent.com/ericvlog/subtitles/blob/main/strike.the.blood/
+    subtitles:
+      - season: 1
+        items:
+          - path: Strike.the.Blood.S01E01.The.Right.Arm.of.the.Saint.I.zh.srt
+            episode: 1
+            delay: 0
+          - path: Strike.the.Blood.S01E02.The.Right.Arm.of.the.Saint.II.zh.srt
+            episode: 2
+          - path: Strike.the.Blood.S01E03.The.Right.Arm.of.the.Saint.III.zh.srt
+            episode: 3
+          - path: Strike.the.Blood.S01E04.The.Right.Arm.of.the.Saint.IV.zh.srt
+            episode: 4
+          - path: Strike.the.Blood.S01E05.From.the.Warlord's.Empire.I.zh.srt
+            episode: 5
+          - path: Strike.the.Blood.S01E06.From.the.Warlord's.Empire.II.zh.srt
+            episode: 6
+          - path: Strike.the.Blood.S01E07.From.the.Warlord's.Empire.III.zh.srt
+            episode: 7
+          - path: Strike.the.Blood.S01E08.From.the.Warlord's.Empire.IV.zh.srt
+            episode: 8
+          - path: Strike.the.Blood.S01E09.The.Amphisbaena.I.zh.srt
+            episode: 9
+          - path: Strike.the.Blood.S01E10.The.Amphisbaena.II.zh.srt
+            episode: 10
+          - path: Strike.the.Blood.S01E11.The.Amphisbaena.III.zh.srt
+            episode: 11
+          - path: Strike.the.Blood.S01E12.The.Amphisbaena.IV.zh.srt
+            episode: 12
+          - path: Strike.the.Blood.S01E13.Labyrinth.of.the.Blue.Witch.I.zh.srt
+            episode: 13
+          - path: Strike.the.Blood.S01E14.Labyrinth.of.the.Blue.Witch.II.zh.srt
+            episode: 14
+          - path: Strike.the.Blood.S01E15.Labyrinth.of.the.Blue.Witch.III.zh.srt
+            episode: 15
+          - path: Strike.the.Blood.S01E16.Fiesta.for.the.Observers.I.zh.srt
+            episode: 16
+          - path: Strike.the.Blood.S01E17.Fiesta.for.the.Observers.II.zh.srt
+            episode: 17
+          - path: Strike.the.Blood.S01E18.Fiesta.for.the.Observers.III.zh.srt
+            episode: 18
+          - path: Strike.the.Blood.S01E19.Fiesta.for.the.Observers.IV.zh.srt
+            episode: 19
+          - path: Strike.the.Blood.S01E20.Return.of.the.Alchemist.I.zh.srt
+            episode: 20
+          - path: Strike.the.Blood.S01E21.Return.of.the.Alchemist.II.zh.srt
+            episode: 21
+          - path: Strike.the.Blood.S01E22.Return.of.the.Alchemist.III.zh.srt
+            episode: 22
+          - path: Strike.the.Blood.S01E23.Empire.of.the.Dawn.I.zh.srt
+            episode: 23
+          - path: Strike.the.Blood.S01E24.Empire.of.the.Dawn.II.zh.srt
+            episode: 24
+      - season: 2
+        items:
+          - path: Strike.the.Blood.II.S02E01.Black.Sword.Shaman.I.zh.srt
+            episode: 1
+            delay: 0
+          - path: Strike.the.Blood.II.S02E02.Black.Sword.Shaman.II.zh.srt
+            episode: 2
+          - path: Strike.the.Blood.II.S02E03.Black.Sword.Shaman.III.zh.srt
+            episode: 3
+          - path: Strike.the.Blood.II.S02E04.Fleeing.Fourth.Primogenitor.I.zh.srt
+            episode: 4
+          - path: Strike.the.Blood.II.S02E05.Fleeing.Fourth.Primogenitor.II.zh.srt
+            episode: 5
+          - path: Strike.the.Blood.II.S02E06.Knight.of.the.God.of.Mistakes.I.zh.srt
+            episode: 6
+          - path: Strike.the.Blood.II.S02E07.Knight.of.the.God.of.Mistakes.II.zh.srt
+            episode: 7
+          - path: Strike.the.Blood.II.S02E08.Knight.of.the.God.of.Mistakes.III.zh.srt
+            episode: 8
+      - season: 3
+        items:
+          - path: Strike.the.Blood.III.S03E01.Tartaros.Roses.I.zh.srt
+            episode: 1
+            delay: 0
+          - path: Strike.the.Blood.III.S03E02.Tartaros.Roses.II.zh.srt
+            episode: 2
+          - path: Strike.the.Blood.III.S03E03.Tartaros.Roses.III.zh.srt
+            episode: 3
+          - path: Strike.the.Blood.III.S03E04.The.Time.of.My.Life.I.zh.srt
+            episode: 4
+          - path: Strike.the.Blood.III.S03E05.The.Time.of.My.Life.II.zh.srt
+            episode: 5
+          - path: Strike.the.Blood.III.S03E06.The.Time.of.My.Life.III.zh.srt
+            episode: 6
+          - path: Strike.the.Blood.III.S03E07.The.War.of.Original.Vampires.I.zh.srt
+            episode: 7
+          - path: Strike.the.Blood.III.S03E08.The.War.of.Original.Vampires.II.zh.srt
+            episode: 8
+          - path: Strike.the.Blood.III.S03E09.The.War.of.Original.Vampires.III.zh.srt
+            episode: 9
+          - path: Strike.the.Blood.III.S03E10.The.War.of.Original.Vampires.IV.zh.srt
+            episode: 10
+      - season: 4
+        items:
+          - path: Strike.the.Blood.IV.S04E01.Paladiness.of.Mirage.I.zh.srt
+            episode: 1
+            delay: 0
+          - path: Strike.the.Blood.IV.S04E02.Paladiness.of.Mirage.II.zh.srt
+            episode: 2
+          - path: Strike.the.Blood.IV.S04E03.Paladiness.of.Mirage.III.zh.srt
+            episode: 3
+          - path: Strike.the.Blood.IV.S04E04.Tournament.in.the.Nightmare.Night.I.zh.srt
+            episode: 4
+          - path: Strike.the.Blood.IV.S04E05.Tournament.in.the.Nightmare.Night.II.zh.srt
+            episode: 5
+          - path: Strike.the.Blood.IV.S04E06.Tournament.in.the.Nightmare.Night.III.zh.srt
+            episode: 6
+          - path: Strike.the.Blood.IV.S04E07.Resurrection.of.Vampire.Princess.I.zh.srt
+            episode: 7
+          - path: Strike.the.Blood.IV.S04E08.Resurrection.of.Vampire.Princess.II.zh.srt
+            episode: 8
+          - path: Strike.the.Blood.IV.S04E09.Resurrection.of.Vampire.Princess.III.zh.srt
+            episode: 9
+          - path: Strike.the.Blood.IV.S04E10.Seize.the.Twelve.Beast.Vassals.I.zh.srt
+            episode: 10
+          - path: Strike.the.Blood.IV.S04E11.Seize.the.Twelve.Beast.Vassals.II.zh.srt
+            episode: 11
+          - path: Strike.the.Blood.IV.S04E12.Seize.the.Twelve.Beast.Vassals.III.zh.srt
+            episode: 12
+      - season: 5
+        items:
+          - path: Strike.the.Blood.Final.S05E01.Return.of.the.Dawn.I.zh.srt
+            episode: 1
+            delay: 0
+          - path: Strike.the.Blood.Final.S05E02.Return.of.the.Dawn.II.zh.srt
+            episode: 2
+          - path: Strike.the.Blood.Final.S05E03.Return.of.the.Dawn.III.zh.srt
+            episode: 3
+          - path: Strike.the.Blood.Final.S05E04.Return.of.the.Dawn.IV.zh.srt
+            episode: 4
